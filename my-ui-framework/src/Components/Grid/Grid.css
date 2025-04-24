@@ -1,0 +1,16 @@
+/* Grid.css */
+
+.grid-container {
+    display: grid;
+    gap: 16px;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr); /* Default to 3 columns */
+  }
+  
+  .grid-item {
+    background-color: #f4f4f4;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
